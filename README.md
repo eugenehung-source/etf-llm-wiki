@@ -67,7 +67,9 @@ Wiki 由 7 篇維基百科資料 ingest 而成（[raw/sources.md](raw/sources.md
 | 投影片檢查次數 / 失敗 | 11 / 0 | 12 / 1（條列 46 字超過上限，重生後通過） |
 | 最終檢查 | 5 項中 1 項 FAIL（簡體字） | 5 項全 PASS |
 
-其他紀錄：第一次跑 A 節點時，維基 API 有 4 篇回傳空白（`Expecting value`），被 A' 擋下、`assert` 讓流程停止，重跑後 7 篇全部成功；v2 的 quiz 投影片有一次 JSON 解析失敗，被 `llm_json` 的小 loop 自動修好。完整紀錄見 [checks/run_log_v1.json](checks/run_log_v1.json)、[checks/run_log_v2.json](checks/run_log_v2.json)、[wiki/log.md](wiki/log.md)。
+其他紀錄：第一次跑 A 節點時，維基 API 有 4 篇回傳空白（`Expecting value`），被 A' 擋下、`assert` 讓流程停止，重跑後 7 篇全部成功；v2 的 quiz 投影片有一次 JSON 解析失敗，被 `llm_json` 的小 loop 自動修好。
+
+**人工複核（自動檢查沒抓到的）**：上線後我逐頁看簡報，發現 OpenCC 的 `s2twp`（台灣用語）模式會「過度翻譯」：「比較項目」被改成「比較專案」、「擴展」變「擴充套件」、「演算法」變「演演算法」。這些字本身都是正體字，所以簡繁檢查不會報錯。已在 Wiki 與簡報中手動修正 3 種、共 5 處，並把 `s2t.convert` 加上修正規則。這也說明規則檢查只能擋「已知的錯」，最後仍需要人看一次。完整紀錄見 [checks/run_log_v1.json](checks/run_log_v1.json)、[checks/run_log_v2.json](checks/run_log_v2.json)、[wiki/log.md](wiki/log.md)。
 
 ## 步驟四：反思
 
