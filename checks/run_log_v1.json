@@ -1,0 +1,676 @@
+{
+ "log": [
+  {
+   "time": "17:27:47",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S1 交易型開放式指數基金 (10425 字)"
+  },
+  {
+   "time": "17:27:47",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S2 Exchange-traded fund (15425 字)"
+  },
+  {
+   "time": "17:27:47",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S3 Index fund (10484 字)"
+  },
+  {
+   "time": "17:27:47",
+   "node": "A ingest",
+   "status": "FAIL",
+   "detail": "S4 Expense ratio: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+   "time": "17:27:48",
+   "node": "A ingest",
+   "status": "FAIL",
+   "detail": "S5 Tracking error: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+   "time": "17:27:48",
+   "node": "A ingest",
+   "status": "FAIL",
+   "detail": "S6 Inverse exchange-traded fund: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+   "time": "17:27:48",
+   "node": "A ingest",
+   "status": "FAIL",
+   "detail": "S7 元大台灣卓越50證券投資信託基金: Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+   "time": "17:28:01",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S1 交易型開放式指數基金 (10425 字)"
+  },
+  {
+   "time": "17:28:01",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S2 Exchange-traded fund (15425 字)"
+  },
+  {
+   "time": "17:28:02",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S3 Index fund (10484 字)"
+  },
+  {
+   "time": "17:28:02",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S4 Expense ratio (2204 字)"
+  },
+  {
+   "time": "17:28:02",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S5 Tracking error (4205 字)"
+  },
+  {
+   "time": "17:28:02",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S6 Inverse exchange-traded fund (9057 字)"
+  },
+  {
+   "time": "17:28:02",
+   "node": "A ingest",
+   "status": "OK",
+   "detail": "S7 元大台灣卓越50證券投資信託基金 (858 字)"
+  },
+  {
+   "time": "17:28:28",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S1 → 620 字"
+  },
+  {
+   "time": "17:28:51",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S2 → 834 字"
+  },
+  {
+   "time": "17:29:08",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S3 → 649 字"
+  },
+  {
+   "time": "17:29:25",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S4 → 571 字"
+  },
+  {
+   "time": "17:29:44",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S5 → 707 字"
+  },
+  {
+   "time": "17:30:08",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S6 → 835 字"
+  },
+  {
+   "time": "17:30:23",
+   "node": "B summarize",
+   "status": "OK",
+   "detail": "S7 → 506 字"
+  },
+  {
+   "time": "17:30:48",
+   "node": "B plan",
+   "status": "OK",
+   "detail": "初版 7 頁：etf-basics, etf-history-and-market, creation-redemption-mechanism, etf-costs-and-fees, tracking-error-analysis, leveraged-and-inverse-etf, taiwan-etf-market"
+  },
+  {
+   "time": "17:31:08",
+   "node": "B critique",
+   "status": "OK",
+   "detail": "學長／學姊好！我是一個剛上大一、戶頭只有幾千元零用錢的投資超級小白。看了這份 Wiki 規劃，老實說我覺得**太像金融系教授寫的教科書了**，如果我是想自己買買看 ETF 的人，讀到一半可能就想放棄。  以下是我看完後覺得最嚴重的 4 個問…"
+  },
+  {
+   "time": "17:31:35",
+   "node": "B revise",
+   "status": "OK",
+   "detail": "修訂後 7 頁：etf-basics, taiwan-etf-guide, etf-asset-types, etf-costs-and-fees, pricing-and-arbitrage, tracking-error-and-passive-risk, leveraged-and-inverse-etf"
+  },
+  {
+   "time": "17:32:45",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "etf-basics 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:33:07",
+   "node": "D wiki-check",
+   "status": "PASS",
+   "detail": "etf-basics 第 1 輪"
+  },
+  {
+   "time": "17:33:36",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "taiwan-etf-guide 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:33:57",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "taiwan-etf-guide 第 1 輪：[事實查核] 來源 S7 並未提及買賣 0050「不課徵證券所得稅」; [事實查核] 來源 S7 並未提及 0050「收益分配以每壹仟個受益權單位分配現金收益」; [事實查核] 來源 S1 與 S7 均未提及次級市場交易門檻「以一千個受益權為交易單位」; [事實查核] 來源 S1 並未提及台灣市場有"
+  },
+  {
+   "time": "17:34:28",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "taiwan-etf-guide 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:34:38",
+   "node": "D wiki-check",
+   "status": "PASS",
+   "detail": "taiwan-etf-guide 第 2 輪"
+  },
+  {
+   "time": "17:35:13",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "etf-asset-types 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:35:22",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "etf-asset-types 第 1 輪：[事實查核] 來源 [S1] 未提及債券型 ETF 的收益來源為固定利息，亦未提及信用評等升降時經理團隊透過公開市場操作調整持債以獲取買賣交易損益/資本利得; [事實查核] 來源 [S1, S2] 未提及 ETF 底層資產包含加密貨幣（如比特幣現貨 ETF）、貨幣或負債; [事實查核] 來源 [S2"
+  },
+  {
+   "time": "17:36:16",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "etf-asset-types 第 2 輪：[事實查核] 來源 S1 與 S2 均未提及美股市場有追蹤那斯達克 100（Nasdaq-100）、道瓊工業指數、羅素及威爾夏等代表性指數產品。; [事實查核] 來源 S2 未提及股票型 ETF 能聚焦於科技或金融等特定產業，亦未提及成長股、價值股、動能、品質與低波動等特定風格因子。; [事實查核]"
+  },
+  {
+   "time": "17:36:53",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "etf-asset-types 第 3 輪：[事實查核] 來源 S1 與 S2 均未提及 ETF 標的涵蓋『加密貨幣』; [事實查核] 來源 S1 未提及『信評機構對市場債券進行升降評時，經理團隊會透過公開市場操作調整持債以產生交易損益』"
+  },
+  {
+   "time": "17:36:53",
+   "node": "D wiki-check",
+   "status": "WARN",
+   "detail": "etf-asset-types 超過重試上限，保留最後版本並標記"
+  },
+  {
+   "time": "17:37:10",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "etf-costs-and-fees 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:37:18",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "etf-costs-and-fees 第 1 輪：[事實查核] 頁面提及元大台灣50『依法不課徵證券所得稅』，來源 [S7] 並未提及此項規定。"
+  },
+  {
+   "time": "17:37:54",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "etf-costs-and-fees 第 2 輪：[事實查核] 來源 S4 並未提及費用率會擴大追蹤差距或大幅削弱累積回報等長期績效影響"
+  },
+  {
+   "time": "17:38:24",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "etf-costs-and-fees 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:38:29",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "etf-costs-and-fees 第 3 輪：[事實查核] 來源未提及元大台灣 50 或 ETF「不課徵證券所得稅」的事實"
+  },
+  {
+   "time": "17:38:29",
+   "node": "D wiki-check",
+   "status": "WARN",
+   "detail": "etf-costs-and-fees 超過重試上限，保留最後版本並標記"
+  },
+  {
+   "time": "17:38:59",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "pricing-and-arbitrage 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:39:09",
+   "node": "D wiki-check",
+   "status": "PASS",
+   "detail": "pricing-and-arbitrage 第 1 輪"
+  },
+  {
+   "time": "17:40:20",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "tracking-error-and-passive-risk 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:40:32",
+   "node": "D wiki-check",
+   "status": "PASS",
+   "detail": "tracking-error-and-passive-risk 第 1 輪"
+  },
+  {
+   "time": "17:41:08",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "leveraged-and-inverse-etf 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:41:18",
+   "node": "D wiki-check",
+   "status": "FAIL",
+   "detail": "leveraged-and-inverse-etf 第 1 輪：[事實查核] 來源 S6（及其他來源）並未提及槓桿與反向型 ETF「本質上屬於主動管理範疇」或「內扣費用率（expense ratios）通常高於標準的指數型 ETF」等費用率資訊; [事實查核] 來源並未提及每日再平衡帶來的耗損「與市場變異數成正比」"
+  },
+  {
+   "time": "17:41:53",
+   "node": "D s2t",
+   "status": "FIX",
+   "detail": "leveraged-and-inverse-etf 偵測到簡體字，自動轉繁"
+  },
+  {
+   "time": "17:42:05",
+   "node": "D wiki-check",
+   "status": "PASS",
+   "detail": "leveraged-and-inverse-etf 第 2 輪"
+  },
+  {
+   "time": "17:42:07",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "hook → ['taiwan-etf-guide', 'etf-basics']"
+  },
+  {
+   "time": "17:42:26",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "hook 第 1 輪"
+  },
+  {
+   "time": "17:42:28",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "what → ['etf-basics']"
+  },
+  {
+   "time": "17:42:57",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "what 第 1 輪"
+  },
+  {
+   "time": "17:43:00",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "analogy → ['etf-basics']"
+  },
+  {
+   "time": "17:43:23",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "analogy 第 1 輪"
+  },
+  {
+   "time": "17:43:26",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "index → ['etf-basics', 'tracking-error-and-passive-risk']"
+  },
+  {
+   "time": "17:43:47",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "index 第 1 輪"
+  },
+  {
+   "time": "17:43:52",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "compare → ['etf-basics', 'etf-costs-and-fees']"
+  },
+  {
+   "time": "17:44:34",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "compare 第 1 輪"
+  },
+  {
+   "time": "17:44:39",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "types → ['taiwan-etf-guide', 'etf-asset-types', 'leveraged-and-inverse-etf']"
+  },
+  {
+   "time": "17:45:06",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "types 第 1 輪"
+  },
+  {
+   "time": "17:45:09",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "cost → ['etf-costs-and-fees', 'tracking-error-and-passive-risk']"
+  },
+  {
+   "time": "17:45:32",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "cost 第 1 輪"
+  },
+  {
+   "time": "17:45:37",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "risk → ['leveraged-and-inverse-etf', 'tracking-error-and-passive-risk', 'pricing-and-arbitrage']"
+  },
+  {
+   "time": "17:46:02",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "risk 第 1 輪"
+  },
+  {
+   "time": "17:46:05",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "start → ['taiwan-etf-guide', 'etf-costs-and-fees', 'pricing-and-arbitrage']"
+  },
+  {
+   "time": "17:46:26",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "start 第 1 輪"
+  },
+  {
+   "time": "17:46:30",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "quiz → ['etf-basics']"
+  },
+  {
+   "time": "17:46:51",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "quiz 第 1 輪"
+  },
+  {
+   "time": "17:46:56",
+   "node": "E query-wiki",
+   "status": "OK",
+   "detail": "recap → ['etf-basics', 'etf-costs-and-fees', 'pricing-and-arbitrage']"
+  },
+  {
+   "time": "17:47:18",
+   "node": "F slide-check",
+   "status": "PASS",
+   "detail": "recap 第 1 輪"
+  },
+  {
+   "time": "17:47:18",
+   "node": "H final-check",
+   "status": "PASS",
+   "detail": "section 標籤成對"
+  },
+  {
+   "time": "17:47:18",
+   "node": "H final-check",
+   "status": "PASS",
+   "detail": "投影片數 ≥ 10"
+  },
+  {
+   "time": "17:47:18",
+   "node": "H final-check",
+   "status": "PASS",
+   "detail": "每張都有 Wiki 對應"
+  },
+  {
+   "time": "17:47:18",
+   "node": "H final-check",
+   "status": "PASS",
+   "detail": "所有 Wiki 頁至少被 1 張投影片使用"
+  },
+  {
+   "time": "17:47:18",
+   "node": "H final-check",
+   "status": "FAIL",
+   "detail": "沒有簡體字殘留"
+  }
+ ],
+ "wiki_checks": [
+  {
+   "page": "etf-basics",
+   "round": 1,
+   "pass": true,
+   "problems": []
+  },
+  {
+   "page": "taiwan-etf-guide",
+   "round": 1,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源 S7 並未提及買賣 0050「不課徵證券所得稅」",
+    "[事實查核] 來源 S7 並未提及 0050「收益分配以每壹仟個受益權單位分配現金收益」",
+    "[事實查核] 來源 S1 與 S7 均未提及次級市場交易門檻「以一千個受益權為交易單位」",
+    "[事實查核] 來源 S1 並未提及台灣市場有「原物料期貨型」及「槓桿/反向型」ETF 等產品"
+   ]
+  },
+  {
+   "page": "taiwan-etf-guide",
+   "round": 2,
+   "pass": true,
+   "problems": []
+  },
+  {
+   "page": "etf-asset-types",
+   "round": 1,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源 [S1] 未提及債券型 ETF 的收益來源為固定利息，亦未提及信用評等升降時經理團隊透過公開市場操作調整持債以獲取買賣交易損益/資本利得",
+    "[事實查核] 來源 [S1, S2] 未提及 ETF 底層資產包含加密貨幣（如比特幣現貨 ETF）、貨幣或負債",
+    "[事實查核] 來源 [S2] 未提及債券型 ETF 可聚焦於公司債、高收益債券或特定存續期間"
+   ]
+  },
+  {
+   "page": "etf-asset-types",
+   "round": 2,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源 S1 與 S2 均未提及美股市場有追蹤那斯達克 100（Nasdaq-100）、道瓊工業指數、羅素及威爾夏等代表性指數產品。",
+    "[事實查核] 來源 S2 未提及股票型 ETF 能聚焦於科技或金融等特定產業，亦未提及成長股、價值股、動能、品質與低波動等特定風格因子。",
+    "[事實查核] 來源 S2 未提及市場上發展出氣候變遷、雲端運算、機器人、電動車、零工經濟、電子商務及可再生能源等主題型 ETF。"
+   ]
+  },
+  {
+   "page": "etf-asset-types",
+   "round": 3,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源 S1 與 S2 均未提及 ETF 標的涵蓋『加密貨幣』",
+    "[事實查核] 來源 S1 未提及『信評機構對市場債券進行升降評時，經理團隊會透過公開市場操作調整持債以產生交易損益』"
+   ]
+  },
+  {
+   "page": "etf-costs-and-fees",
+   "round": 1,
+   "pass": false,
+   "problems": [
+    "[事實查核] 頁面提及元大台灣50『依法不課徵證券所得稅』，來源 [S7] 並未提及此項規定。"
+   ]
+  },
+  {
+   "page": "etf-costs-and-fees",
+   "round": 2,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源 S4 並未提及費用率會擴大追蹤差距或大幅削弱累積回報等長期績效影響"
+   ]
+  },
+  {
+   "page": "etf-costs-and-fees",
+   "round": 3,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源未提及元大台灣 50 或 ETF「不課徵證券所得稅」的事實"
+   ]
+  },
+  {
+   "page": "pricing-and-arbitrage",
+   "round": 1,
+   "pass": true,
+   "problems": []
+  },
+  {
+   "page": "tracking-error-and-passive-risk",
+   "round": 1,
+   "pass": true,
+   "problems": []
+  },
+  {
+   "page": "leveraged-and-inverse-etf",
+   "round": 1,
+   "pass": false,
+   "problems": [
+    "[事實查核] 來源 S6（及其他來源）並未提及槓桿與反向型 ETF「本質上屬於主動管理範疇」或「內扣費用率（expense ratios）通常高於標準的指數型 ETF」等費用率資訊",
+    "[事實查核] 來源並未提及每日再平衡帶來的耗損「與市場變異數成正比」"
+   ]
+  },
+  {
+   "page": "leveraged-and-inverse-etf",
+   "round": 2,
+   "pass": true,
+   "problems": []
+  }
+ ],
+ "slide_checks": [
+  {
+   "slide": "hook",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "taiwan-etf-guide",
+    "etf-basics"
+   ]
+  },
+  {
+   "slide": "what",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-basics"
+   ]
+  },
+  {
+   "slide": "analogy",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-basics"
+   ]
+  },
+  {
+   "slide": "index",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-basics",
+    "tracking-error-and-passive-risk"
+   ]
+  },
+  {
+   "slide": "compare",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-basics",
+    "etf-costs-and-fees"
+   ]
+  },
+  {
+   "slide": "types",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "taiwan-etf-guide",
+    "etf-asset-types",
+    "leveraged-and-inverse-etf"
+   ]
+  },
+  {
+   "slide": "cost",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-costs-and-fees",
+    "tracking-error-and-passive-risk"
+   ]
+  },
+  {
+   "slide": "risk",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "leveraged-and-inverse-etf"
+   ]
+  },
+  {
+   "slide": "start",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "taiwan-etf-guide",
+    "etf-costs-and-fees",
+    "pricing-and-arbitrage"
+   ]
+  },
+  {
+   "slide": "quiz",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-basics"
+   ]
+  },
+  {
+   "slide": "recap",
+   "round": 1,
+   "pass": true,
+   "problems": [],
+   "wiki_refs": [
+    "etf-basics",
+    "pricing-and-arbitrage",
+    "etf-costs-and-fees"
+   ]
+  }
+ ]
+}
