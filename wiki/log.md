@@ -1,0 +1,67 @@
+# log.md — Wiki 操作與檢查紀錄
+
+- 17:49:32 **A ingest** OK — S1 交易型開放式指數基金 (10425 字)
+- 17:49:32 **A ingest** OK — S2 Exchange-traded fund (15425 字)
+- 17:49:32 **A ingest** OK — S3 Index fund (10484 字)
+- 17:49:32 **A ingest** OK — S4 Expense ratio (2204 字)
+- 17:49:33 **A ingest** OK — S5 Tracking error (4205 字)
+- 17:49:33 **A ingest** OK — S6 Inverse exchange-traded fund (9057 字)
+- 17:49:33 **A ingest** OK — S7 元大台灣卓越50證券投資信託基金 (858 字)
+- 17:49:52 **B summarize** OK — S1 → 718 字
+- 17:50:20 **B summarize** OK — S2 → 713 字
+- 17:50:55 **B summarize** OK — S3 → 681 字
+- 17:51:11 **B summarize** OK — S4 → 531 字
+- 17:51:34 **B summarize** OK — S5 → 703 字
+- 17:52:01 **B summarize** OK — S6 → 938 字
+- 17:52:18 **B summarize** OK — S7 → 515 字
+- 17:52:39 **B plan** OK — 初版 7 頁：etf-basics, index-investing-history, market-pricing-and-arbitrage, etf-costs-and-fees, tracking-error-and-risks, leveraged-inverse-etfs, taiwan-etf-0050
+- 17:53:02 **B critique** OK — 學長姐好……我是一個完全沒買過股票、戶頭只有打工存的一兩萬塊的大一新生。我認真看了一下這份 Wiki 規劃，如果我是目標讀者，我看完的真實心聲是：「**這好像期末考的財金系講義，而不是教我怎麼開始投資的指南。**」  以下從我的角度挑出 *…
+- 17:53:31 **B revise** OK — 修訂後 7 頁：etf-basics, taiwan-etf-guide, etf-types-and-distribution, etf-costs-and-fees, market-pricing-and-arbitrage, tracking-error-and-risks, leveraged-and-inverse-etfs
+- 17:53:46 **B5 coverage** FIX — etf-basics 缺：缺乏 ETF 與個別股票的明確對比，以及 ETF 與傳統共同基金在交易管道與申贖機制上的完整比較 → 問題改為「什麼是 ETF（指數股票型基金），其運作機制與指數追蹤特性為何？」來源 ['S1', 'S2', 'S3']
+- 17:53:52 **B5 coverage** PASS — taiwan-etf-guide
+- 17:54:04 **B5 coverage** FIX — etf-types-and-distribution 缺：來源未解釋高股息 ETF 的選股特徵及其與市值型 ETF 的具體區別，亦未詳細說明季配息等分配機制的完整運作流程（僅提及 → 問題改為「常見的股票指數型與商品型 ETF 在資產架構與運作上有何差異？台美 ETF 的配」來源 ['S1', 'S2', 'S3']
+- 17:54:06 **B5 coverage** PASS — etf-costs-and-fees
+- 17:54:12 **B5 coverage** PASS — market-pricing-and-arbitrage
+- 17:54:20 **B5 coverage** PASS — tracking-error-and-risks
+- 17:54:26 **B5 coverage** PASS — leveraged-and-inverse-etfs
+- 17:55:07 **D wiki-check** PASS — etf-basics 第 1 輪
+- 17:55:33 **D s2t** FIX — taiwan-etf-guide 偵測到簡體字，自動轉繁
+- 17:55:46 **D wiki-check** PASS — taiwan-etf-guide 第 1 輪
+- 17:56:18 **D s2t** FIX — etf-types-and-distribution 偵測到簡體字，自動轉繁
+- 17:56:27 **D wiki-check** PASS — etf-types-and-distribution 第 1 輪
+- 17:57:12 **D wiki-check** PASS — etf-costs-and-fees 第 1 輪
+- 17:57:41 **D s2t** FIX — market-pricing-and-arbitrage 偵測到簡體字，自動轉繁
+- 17:58:29 **D wiki-check** PASS — market-pricing-and-arbitrage 第 1 輪
+- 17:59:00 **D s2t** FIX — tracking-error-and-risks 偵測到簡體字，自動轉繁
+- 17:59:10 **D wiki-check** PASS — tracking-error-and-risks 第 1 輪
+- 17:59:43 **D s2t** FIX — leveraged-and-inverse-etfs 偵測到簡體字，自動轉繁
+- 17:59:44 **D wiki-check** PASS — leveraged-and-inverse-etfs 第 1 輪
+- 17:59:47 **E query-wiki** OK — hook → ['taiwan-etf-guide', 'etf-basics']
+- 18:00:06 **F slide-check** PASS — hook 第 1 輪
+- 18:00:10 **E query-wiki** OK — what → ['etf-basics']
+- 18:00:27 **F slide-check** PASS — what 第 1 輪
+- 18:00:32 **E query-wiki** OK — analogy → ['etf-basics']
+- 18:00:50 **F slide-check** PASS — analogy 第 1 輪
+- 18:00:55 **E query-wiki** OK — index → ['etf-basics', 'tracking-error-and-risks']
+- 18:01:11 **F slide-check** PASS — index 第 1 輪
+- 18:01:15 **E query-wiki** OK — compare → ['etf-basics', 'etf-costs-and-fees']
+- 18:01:30 **F slide-check** PASS — compare 第 1 輪
+- 18:01:34 **E query-wiki** OK — types → ['etf-types-and-distribution', 'leveraged-and-inverse-etfs']
+- 18:01:55 **F slide-check** PASS — types 第 1 輪
+- 18:01:58 **E query-wiki** OK — cost → ['etf-costs-and-fees', 'tracking-error-and-risks']
+- 18:02:18 **F slide-check** PASS — cost 第 1 輪
+- 18:02:24 **E query-wiki** OK — risk → ['leveraged-and-inverse-etfs', 'tracking-error-and-risks']
+- 18:02:49 **F slide-check** PASS — risk 第 1 輪
+- 18:02:55 **E query-wiki** OK — start → ['taiwan-etf-guide', 'etf-basics', 'etf-costs-and-fees']
+- 18:03:10 **F slide-check** FAIL — start 第 1 輪：條列太長（46 字）：別把每檔 ETF 都當成高頻配息，像 0…
+- 18:03:32 **F slide-check** PASS — start 第 2 輪
+- 18:03:40 **E query-wiki** OK — quiz → ['etf-basics', 'market-pricing-and-arbitrage', 'etf-costs-and-fees']
+- 18:03:55 **llm_json** RETRY — JSON 解析失敗 (JSONDecodeError)
+- 18:04:24 **F slide-check** PASS — quiz 第 1 輪
+- 18:04:38 **E query-wiki** OK — recap → ['etf-basics', 'taiwan-etf-guide', 'etf-costs-and-fees']
+- 18:04:51 **F slide-check** PASS — recap 第 1 輪
+- 18:04:51 **H final-check** PASS — section 標籤成對
+- 18:04:51 **H final-check** PASS — 投影片數 ≥ 10
+- 18:04:51 **H final-check** PASS — 每張都有 Wiki 對應
+- 18:04:51 **H final-check** PASS — 所有 Wiki 頁至少被 1 張投影片使用
+- 18:04:51 **H final-check** PASS — 沒有簡體字殘留
